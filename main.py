@@ -20,7 +20,7 @@ def index():
 #    Located at: http://127.0.0.1:8000/AnyNameHere
 @app.get('/welcome')
 def get_name(name:str):
-    return {'Welcome to the world of Python!':f'(name'}
+    return {'Welcome to the world of Python!':f'(name)'}
 
 # 5. Run the API with uvicorn
 #    Will run on http://127.0.0.1:8000
